@@ -38,8 +38,12 @@ func main() {
 		case "fill":
 			m.fill()
 		case "take":
-			fmt.Printf("I gave you $%d\n\n", m.money)
-			m.money -= m.money
+			if m.money >= 1 {
+				fmt.Printf("\nI gave you $%d\n", m.money)
+				m.money -= m.money
+			} else {
+				fmt.Println("\nInvalid: out of money")
+			}
 		case "remaining":
 			m.info()
 		default:
