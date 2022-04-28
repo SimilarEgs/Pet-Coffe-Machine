@@ -1,6 +1,3 @@
-# JB-Coffe-Machine
-This pet project shows my skills in: methods, structs, for/switch functions
-
 Pricelist and quantity of coffees ingredients:
 
 · Espresso 4$ - Water: 250, Coffee_Beants: 16
